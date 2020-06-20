@@ -87,9 +87,9 @@
                     <img src="/img/logo-bmotion-white.png" style="width: 50%; padding-bottom: 3%" alt="">
                     {{--   <h1 class="animate"><a href="#" title="Rosa - Responsive Coming Soon Template">¡PROXIMAMENTE!</a>
                     </h1> --}}
-                    <h2 class="animate"><a href="#" title="Rosa - Responsive Coming Soon Template">NOS ESTAMOS
+                    <h2 style="font-size: 1.7rem !important;" class="animate"><a href="#" title="Rosa - Responsive Coming Soon Template">NOS ESTAMOS
                             REINVENTANDO PARA TI.</a></h2>
-                    <h2 class="animate"><a href="#" title="Rosa - Responsive Coming Soon Template">PRONTO VOLVEREMOS A
+                    <h2 style="font-size: 1.7rem !important;" class="animate"><a href="#" title="Rosa - Responsive Coming Soon Template">PRONTO VOLVEREMOS A
                             ESTAR EN LINEA</a></h2>
                     {{--   <p class="intro animate">Nuestro sitio web esta construcción. Suscríbete y sé de los primeros en
                         disfrutar a CUBATAO.COM</p> --}}
@@ -202,7 +202,7 @@
                             <a href="#" class="button">
                                 <h3>Newsletter</h3><span>Boletin informativo</span>
                             </a>
-                            <div class="morph-content" style="height: 35% !important;">
+                            <div class="morph-content" style="height: 20rem !important;">
                                 <div>
                                     <div class="content-style-form content-style-form-2">
                                         <div class="button-close">
