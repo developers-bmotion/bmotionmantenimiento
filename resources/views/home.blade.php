@@ -195,7 +195,7 @@
                         </div>
                         <!-- morph-button -->
 
-                        <!-- ==============================================
+                       {{--  <!-- ==============================================
 						NEWSLETTER FORM
 						=============================================== -->
                         <div class="morph-button morph-button-modal morph-button-modal-3 morph-button-fixed">
@@ -218,20 +218,20 @@
                                             </p>
                                             <p><button type="submit" class="btn-submit">ENVIAR</button></p>
                                         </form>
-                                        {{-- <div class="success-message"></div>
-						                    <div class="error-message"></div> --}}
+                                        <div class="success-message"></div>
+						                    <div class="error-message"></div>
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-
+ --}}
                         <!-- ==============================================
 						CONTACT FORM
 						=============================================== -->
-                        {{-- <div class="morph-button morph-button-modal morph-button-modal-3 morph-button-fixed">
+                        <div class="morph-button morph-button-modal morph-button-modal-3 morph-button-fixed">
                             <a href="#" class="button">
-                                <h3>Toca aquí para suscribirte</h3><span>Escribenos!</span>
+                                <h3>Contacto</h3><span>Escribenos!</span>
                             </a>
                             <div class="morph-content">
                                 <div>
@@ -240,7 +240,7 @@
                                             <span class="button-close-icon" aria-hidden="true"
                                                 data-icon="&#x51;"></span>
                                         </div>
-                                        <h2>Suscripción</h2>
+                                        <h2>Contacto</h2>
                                         <form method="POST" action="{{ route('register') }}">
                         @csrf
                         <h3>Nombre <span style="color: #E04131">*</span></h3>
@@ -251,14 +251,14 @@
                         <p><input type="email" name="email" placeholder="Email" required /></p>
                         <h3>Mensaje (Opcional)</h3>
                         <p><textarea name="message" cols="35" rows="5" placeholder="Mensaje"></textarea></p>
-                        <p><button type="submit" class="btn-submit">Suscribir</button></p>
+                        <p><button type="submit" class="btn-submit">Enviar</button></p>
                         </form>
                         <div class="success-message-2"></div>
                         <div class="error-message-2"></div>
                 </div>
             </div>
         </div>
-        </div> --}}
+        </div>
     </section>
 
     {{--  <ul class="footer-social animate">

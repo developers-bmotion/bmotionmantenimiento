@@ -1,5 +1,5 @@
 @component('mail::message')
-<h1 style="text-align: center;">Hola {{ $name }} , gracias por suscribirte a {{config('app.name')}}</h1>
-<img class="img-responsive" src="{{ url('/img/logo_negro_cubatao.png') }}" style="padding:15%">
-<p style="text-align: center;">Te notificaremos para que compres ahorrando.</p>
+<h1 style="text-align: center;">Cordial saludo {{ $name }} , gracias por enviar un mensaje a {{config('app.name')}}</h1>
+<img class="img-responsive" src="{{ url('/img/logo_bmotion_dark.jpg') }}" style="padding:15%">
+<p style="text-align: center;">Te notificaremos cuando estemos listos.</p>
 @endcomponent
