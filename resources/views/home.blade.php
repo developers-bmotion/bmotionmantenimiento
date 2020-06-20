@@ -116,7 +116,7 @@
                         <!-- ==============================================
 						ABOUT US
 						=============================================== -->
-                        <div class="morph-button morph-button-overlay morph-button-fixed">
+                        {{-- <div class="morph-button morph-button-overlay morph-button-fixed">
                             <a href="#" class="button">
                                 <h3>Nosotros</h3><span>Quienes somos</span>
                             </a>
@@ -144,8 +144,8 @@
                                                             sollicitudin. Donec auctor tempus metus eget elementum.
                                                             Suspendisse potenti. </p>
                                                         <ul class="info">
-                                                            {{-- <li><span aria-hidden="true" data-icon="&#xe01d;"></span>106 Rue du Mail, Paris, Francia</li>
-															<li><span aria-hidden="true" data-icon="&#xe00b;"></span>(000) 123 456</li> --}}
+                                                            <li><span aria-hidden="true" data-icon="&#xe01d;"></span>106 Rue du Mail, Paris, Francia</li>
+															<li><span aria-hidden="true" data-icon="&#xe00b;"></span>(000) 123 456</li>
                                                             <li><span aria-hidden="true"
                                                                     data-icon="&#xe0e3;"></span>www.bmotion.co</li>
                                                             <li><span aria-hidden="true" data-icon="&#xe010;"></span><a
@@ -153,7 +153,7 @@
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                    {{-- <div class="col-md-6">
+                                                    <div class="col-md-6">
 														<div class="member">
 															<img class="img-responsive member-image" src="http://placehold.it/500x500" alt="Member image">
 															<div class="member-info">
@@ -185,14 +185,14 @@
 															</div>
 															<ul id="twitter-feed" class="list-tweets"></ul>
 														</div>
-													</div> --}}
+													</div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- morph-button -->
 
                        {{--  <!-- ==============================================
