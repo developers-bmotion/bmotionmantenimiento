@@ -31,7 +31,7 @@ class CountdownController extends Controller
         $information->message = $request->message;
         $information->save();
         Mail::to($information->email)->send(new NewClienteRegister($information->name));
-        return back()->with('exito', 'Enviado con exito!.');
+        return back()->with('exito', '¡Enviado con éxito!.');
 
     }
 

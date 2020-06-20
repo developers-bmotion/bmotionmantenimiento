@@ -33,7 +33,7 @@ class NewClienteRegister extends Mailable
     public function build()
     {
         return $this
-            ->subject(__('¡En '.config('app.name').'! Haz sido registrado'))
+            ->subject(__(config('app.name')))
             ->markdown('emails.themes-clients.new-client-register')
             ->with('name',$this->name);
 
